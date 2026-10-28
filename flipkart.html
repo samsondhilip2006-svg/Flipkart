@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flipkart Clone</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f3f6;
+        }
+
+        nav {
+            background-color: #2874f0;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding: 15px 50px;
+            gap: 25px;
+        }
+
+        nav h1 {
+            font-size: 28px;
+            font-style: italic;
+        }
+
+        nav input {
+            width: 500px;
+            padding: 12px;
+            border: none;
+            border-radius: 3px;
+        }
+
+        .login {
+            background-color: white;
+            color: #2874f0;
+            border: none;
+            padding: 10px 30px;
+            font-weight: bold;
+        }
+
+        .categories {
+            background-color: white;
+            display: flex;
+            justify-content: space-around;
+            padding: 15px;
+        }
+
+        .categories div {
+            text-align: center;
+        }
+
+        .categories p {
+            font-size: 30px;
+            margin-bottom: 5px;
+        }
+
+        .banner {
+            background-color: white;
+            text-align: center;
+            padding: 50px;
+            margin: 10px;
+        }
+
+        .banner h2 {
+            color: #2874f0;
+            font-size: 35px;
+        }
+
+        .banner p {
+            margin: 15px;
+            font-size: 18px;
+        }
+
+        .banner button {
+            background-color: #fb641b;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+        }
+
+        .heading {
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        .products {
+            display: flex;
+            justify-content: space-around;
+            gap: 15px;
+            padding: 10px;
+        }
+
+        .product {
+            background-color: white;
+            width: 23%;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 2px 5px gray;
+        }
+
+        .product-img {
+            font-size: 80px;
+            padding: 20px;
+        }
+
+        .product h3 {
+            margin: 10px;
+        }
+
+        .product p {
+            color: gray;
+        }
+
+        .product button {
+            background-color: #2874f0;
+            color: white;
+            border: none;
+            padding: 10px 25px;
+        }
+
+        footer {
+            background-color: #172337;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <h1>Flipkart</h1>
+
+        <input type="text" placeholder="Search for products, brands and more">
+
+        <button class="login">Login</button>
+
+        <span>Cart 🛒</span>
+    </nav>
+
+    <div class="categories">
+
+        <div>
+            <p>📱</p>
+            <b>Mobiles</b>
+        </div>
+
+        <div>
+            <p>💻</p>
+            <b>Electronics</b>
+        </div>
+
+        <div>
+            <p>👕</p>
+            <b>Fashion</b>
+        </div>
+
+        <div>
+            <p>🏠</p>
+            <b>Home</b>
+        </div>
+
+        <div>
+            <p>📺</p>
+            <b>Appliances</b>
+        </div>
+
+        <div>
+            <p>🛒</p>
+            <b>Grocery</b>
+        </div>
+
+    </div>
+
+    <div class="banner">
+
+        <h2>Big Billion Days</h2>
+
+        <p>Big discounts on your favourite products!</p>
+
+        <button>Shop Now</button>
+
+    </div>
+
+    <h2 class="heading">Best Deals</h2>
+
+    <div class="products">
+
+        <div class="product">
+            <div class="product-img">📱</div>
+            <h3>Smartphone</h3>
+            <p>Latest Android Phone</p>
+            <h3>₹14,999</h3>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="product">
+            <div class="product-img">💻</div>
+            <h3>Laptop</h3>
+            <p>Powerful Performance</p>
+            <h3>₹49,999</h3>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="product">
+            <div class="product-img">👟</div>
+            <h3>Running Shoes</h3>
+            <p>Comfortable Sports Shoes</p>
+            <h3>₹1,999</h3>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="product">
+            <div class="product-img">🎧</div>
+            <h3>Headphones</h3>
+            <p>Wireless Bluetooth</p>
+            <h3>₹999</h3>
+            <button>Buy Now</button>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Flipkart Clone | Created using HTML & CSS</p>
+    </footer>
+
+</body>
+</html>
